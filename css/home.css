@@ -1,5 +1,28 @@
+.hero-container {
+  background-image: url("/images/hero-image.jpg");
+  background-size: cover;
+  object-fit: cover;
+  padding-bottom: 40.57%;
+  position: relative;
+}
 .hero-image {
   height: 100vh;
-  width: 100%;
-  object-fit: cover;
+  width: auto;
+}
+.hero-overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  transform: translateY(-50%);
+}
+.break-h1 {
+  display: block;
+}
+.h1-paragraph {
+  font-size: 1.4em;
+  font-family: var(--paragraph-family);
+  font-weight: 500;
+}
+.hero-overlay-paragraph {
+  margin-top: 1.2em;
 }

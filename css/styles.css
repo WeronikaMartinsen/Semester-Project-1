@@ -1,3 +1,16 @@
+:root {
+  --background-color-1: #75bfe7;
+  --background-color-1: #8d8d8d;
+  --hover-color: rgba(178, 211, 225, 0.19);
+  --active-color: #75bfe7;
+  --headings-color: #1f1410;
+  --paragraph-color: #474747;
+  --heading-family: "Alegreya Sans", sans-serif;
+  --paragraph-family: "Arimo", sans-serif;
+  --button-default-background-color: #0d4979;
+  --button-default-color: white;
+  --radius-default: 5px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +19,7 @@
   list-style: none;
 }
 body {
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Alegreya Sans", "Arimo", sans-serif;
 }
 #logo {
   margin: 0.5em 2em;
@@ -36,7 +49,7 @@ nav ul li a {
 }
 a.active,
 a:hover {
-  color: #75bfe7;
+  color: var(--background-color-1);
   transition: 0.5s;
 }
 .menu-icon {
@@ -48,4 +61,9 @@ a:hover {
 }
 #menu-checkbox {
   display: none;
+}
+h1 {
+  font-size: 2.5em;
+}
+p {
 }

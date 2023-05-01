@@ -1,15 +1,29 @@
+@media (max-width: 940px) {
+  h1 {
+    font-size: 1.8em;
+  }
+  .hero-overlay-paragraph {
+    font-size: 0.8em;
+  }
+}
 @media (max-width: 760px) {
   #logo {
     width: 7em;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   nav ul li a {
     font-size: 0.9em;
     padding: 0.4em 0.4em;
   }
 }
-@media (max-width: 610px) {
+@media (max-width: 620px) {
+  h1 {
+    font-size: 1.4em;
+  }
+  .hero-overlay-paragraph {
+    font-size: 0.5em;
+  }
   ul {
     position: fixed;
     width: 100%;
@@ -36,5 +50,13 @@
   }
   #menu-checkbox:checked ~ ul {
     left: 0;
+  }
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1em;
+  }
+  .hero-overlay-paragraph {
+    font-size: 0.5em;
   }
 }
