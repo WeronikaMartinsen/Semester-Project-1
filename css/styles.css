@@ -1,7 +1,7 @@
 :root {
   --background-color-1: #75bfe7;
   --background-color-1: #8d8d8d;
-  --hover-color: rgba(178, 211, 225, 0.19);
+  --hover-color: #75bfe7;
   --active-color: #75bfe7;
   --headings-color: #1f1410;
   --paragraph-color: #474747;
@@ -9,7 +9,7 @@
   --paragraph-family: "Arimo", sans-serif;
   --button-default-background-color: #0d4979;
   --button-default-color: white;
-  --radius-default: 5px;
+  --radius-default: 2em;
 }
 * {
   margin: 0;
@@ -49,7 +49,7 @@ nav ul li a {
 }
 a.active,
 a:hover {
-  color: var(--background-color-1);
+  color: var(--hover-color);
   transition: 0.5s;
 }
 .menu-icon {
@@ -65,5 +65,19 @@ a:hover {
 h1 {
   font-size: 2.5em;
 }
-p {
+.btn-cta {
+  font-size: 1.1em;
+  padding: 0.8em 3em;
+  border-radius: var(--radius-default);
+  background-color: var(--button-default-background-color);
+  border: 0;
+  color: var(--button-default-color);
+}
+.btn-big {
+  margin-top: 1.2em;
+}
+.btn-cta:active,
+.btn-cta:hover {
+  background-color: var(--hover-color);
+  transition: 0.5s;
 }
