@@ -32,7 +32,7 @@
   color: var(--button-default-background-color);
 }
 .hero-overlay-paragraph {
-  margin-top: 0.8em;
+  margin-top: 1em;
 }
 .exhibition-wrapper {
   padding: 2em;
@@ -87,4 +87,8 @@
 }
 .explore-paragraph {
   margin: 1em;
+}
+.science-for-everyone {
+  background-color: var(--background-color-2);
+  padding: 2em;
 }

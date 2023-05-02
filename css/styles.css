@@ -23,7 +23,7 @@ body {
   font-family: "Alegreya Sans", "Arimo", sans-serif;
 }
 #logo {
-  margin: 0.4em 0 0 0.6em;
+  margin: 0.6em 0 0 1em;
   width: 13em;
   height: auto;
 }
@@ -66,6 +66,9 @@ a:hover {
 }
 h1 {
   font-size: 2em;
+}
+h2 {
+  color: var(--button-default-background-color);
 }
 .btn-cta {
   font-size: 1.1em;
