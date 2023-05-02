@@ -1,6 +1,6 @@
 :root {
   --background-color-1: #75bfe7;
-  --background-color-1: #8d8d8d;
+  --background-color-2: rgba(141, 141, 141, 0.572);
   --hover-color: #75bfe7;
   --active-color: #75bfe7;
   --headings-color: #1f1410;
@@ -22,13 +22,13 @@ body {
   font-family: "Alegreya Sans", "Arimo", sans-serif;
 }
 #logo {
-  margin: 0.5em 2em;
+  margin: 1em 2em 1em;
   width: 9em;
   height: auto;
 }
 nav {
   background-color: white;
-  height: 4.8em;
+  height: 5.3em;
   width: 100%;
 }
 nav ul {
@@ -37,7 +37,7 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-  margin: 1.8em 0.9em;
+  margin: 2em 0.9em;
 }
 nav ul li a {
   color: black;
@@ -63,7 +63,7 @@ a:hover {
   display: none;
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 2.3em;
 }
 .btn-cta {
   font-size: 1.1em;

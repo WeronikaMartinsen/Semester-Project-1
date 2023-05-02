@@ -2,9 +2,6 @@
   h1 {
     font-size: 1.8em;
   }
-  .hero-overlay-paragraph {
-    font-size: 0.8em;
-  }
 }
 @media (max-width: 760px) {
   #logo {
@@ -56,6 +53,8 @@
   #menu-checkbox:checked ~ ul {
     left: 0;
   }
+  .hero-overlay-text {
+  }
 }
 @media (max-width: 500px) {
   h1 {
@@ -65,7 +64,7 @@
     font-size: 0.4em;
   }
   .btn-cta {
-    font-size: 0.5em;
+    font-size: 0.6em;
   }
 }
 @media (max-width: 420px) {
