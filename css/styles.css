@@ -1,6 +1,6 @@
 :root {
-  --background-color-1: #75bfe7;
-  --background-color-2: rgba(141, 141, 141, 0.572);
+  --background-color-1: rgba(141, 141, 141, 0.19);
+  --background-color-2: rgba(178, 211, 225, 0.19);
   --hover-color: #75bfe7;
   --active-color: #75bfe7;
   --headings-color: #1f1410;
@@ -23,13 +23,13 @@ body {
   font-family: "Alegreya Sans", "Arimo", sans-serif;
 }
 #logo {
-  margin: 1em 2em 1em;
-  width: 9em;
+  margin: 0.4em 0 0 0.6em;
+  width: 13em;
   height: auto;
 }
 nav {
   background-color: var(--button-default-background-color);
-  height: 5.3em;
+  height: 7em;
   width: 100%;
 }
 nav ul {
@@ -38,11 +38,11 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-  margin: 2em 0.9em;
+  margin: 3em 0.9em;
 }
 nav ul li a {
   color: white;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 600;
   padding: 0.4em 0.6em;
   border-radius: 0.2em;
@@ -59,12 +59,13 @@ a:hover {
   margin: 0.2em 0.5em;
   cursor: pointer;
   display: none;
+  color: white;
 }
 #menu-checkbox {
   display: none;
 }
 h1 {
-  font-size: 2.3em;
+  font-size: 2em;
 }
 .btn-cta {
   font-size: 1.1em;

@@ -1,25 +1,29 @@
+@media (max-width: 1280px) {
+  .exhibition-images {
+    height: 15em;
+  }
+}
+
 @media (max-width: 940px) {
   h1 {
     font-size: 1.8em;
   }
 }
-@media (max-width: 760px) {
-  #logo {
-    width: 7em;
-  }
-}
 @media (max-width: 750px) {
   nav ul li a {
-    font-size: 0.9em;
-    padding: 0.4em 0.4em;
+    font-size: 0.8em;
+    padding: 0.4em 0.3em;
   }
   .btn-cta {
     font-size: 0.7em;
   }
+  h2 {
+    font-size: 1.2em;
+  }
 }
 @media (max-width: 620px) {
   h1 {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   .hero-overlay-paragraph {
     font-size: 0.6em;
@@ -28,16 +32,13 @@
     font-size: 1.5em;
     position: fixed;
     width: 100%;
-    height: 15em;
+    height: 25em;
     background-color: #0d4979;
-    top: 3em;
+    top: 4em;
     left: -100%;
     text-align: center;
     transition: all 0.5s;
     z-index: 1 !important;
-  }
-  nav ul li a {
-    color: white;
   }
   .menu-icon {
     display: block;
@@ -53,13 +54,8 @@
   #menu-checkbox:checked ~ ul {
     left: 0;
   }
-  .hero-overlay-text {
-  }
 }
 @media (max-width: 500px) {
-  h1 {
-    font-size: 1.2em;
-  }
   .hero-overlay-paragraph {
     font-size: 0.4em;
   }
