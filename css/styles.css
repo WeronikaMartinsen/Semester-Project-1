@@ -18,6 +18,7 @@
   text-decoration: none;
   list-style: none;
 }
+
 body {
   font-family: "Alegreya Sans", "Arimo", sans-serif;
 }
@@ -27,7 +28,7 @@ body {
   height: auto;
 }
 nav {
-  background-color: white;
+  background-color: var(--button-default-background-color);
   height: 5.3em;
   width: 100%;
 }
@@ -40,7 +41,7 @@ nav ul li {
   margin: 2em 0.9em;
 }
 nav ul li a {
-  color: black;
+  color: white;
   font-size: 1.1em;
   font-weight: 600;
   padding: 0.4em 0.6em;
