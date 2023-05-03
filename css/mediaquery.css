@@ -32,7 +32,7 @@
     order: 1;
   }
   .slider {
-    width: 75% !important;
+    width: 80% !important;
   }
   h3 {
     text-align: center;
@@ -80,14 +80,14 @@
     font-size: 0.6em;
   }
   .slider {
-    width: 60% !important;
+    width: 70% !important;
+  }
+  .s-image {
+    scale: 0.7;
   }
 }
 @media (max-width: 420px) {
   h1 {
     font-size: 1em;
-  }
-  .s-image {
-    scale: 0.7;
   }
 }

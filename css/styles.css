@@ -6,15 +6,15 @@
   list-style: none;
 }
 :root {
-  --background-color-1: rgba(141, 141, 141, 0.19);
-  --background-color-2: rgba(178, 211, 225, 0.19);
+  --background-color-1: #010440;
+  --background-color-2: #e2eaff;
   --hover-color: #75bfe7;
   --active-color: #75bfe7;
   --headings-color: #1f1410;
   --paragraph-color: #474747;
   --heading-family: "Alegreya Sans", sans-serif;
   --paragraph-family: "Arimo", sans-serif;
-  --button-default-background-color: #0d4979;
+  --button-default-background-color: #f26f63;
   --button-default-color: white;
   --radius-default: 2em;
 }
@@ -28,7 +28,7 @@ body {
   height: auto;
 }
 nav {
-  background-color: var(--button-default-background-color);
+  background-color: var(--background-color-1);
   height: 7em;
   width: 100%;
   position: sticky;
@@ -73,24 +73,28 @@ a:hover {
   display: block;
   font-size: 3em;
 }
+.cosmos-icon.icon-color {
+  color: var(--button-default-background-color);
+}
 h1 {
   font-size: 2em;
+  color: var(--background-color-1);
 }
 h2 {
-  color: white;
+  color: var(--background-color-1);
   font-weight: 500;
   text-transform: uppercase;
 }
 
 .h1-paragraph {
   font-size: 1.2em;
-  font-family: var(--paragraph-family);
+  font-family: var(--button-default-background-color);
   font-weight: 400;
   font-style: italic;
 }
 .h2-paragraph {
   font-size: 1em;
-  font-family: var(--paragraph-family);
+  font-family: var(--button-default-background-color);
   font-weight: 500;
   font-style: italic;
   color: white;
@@ -99,7 +103,6 @@ h3 {
   font-weight: 700;
   text-transform: uppercase;
   padding-bottom: 0.5em;
-  padding-top: 1em;
 }
 .p-black {
   color: black;
