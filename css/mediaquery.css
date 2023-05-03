@@ -1,20 +1,19 @@
-@media (max-width: 940px) {
-  h1 {
-    font-size: 1.8em;
-  }
-}
 @media (max-width: 810px) {
   .s-image {
     scale: 0.9;
   }
+  h1 {
+    font-size: 1.7em;
+  }
+  .btn-cta {
+    padding: 0.8em 2.2em;
+    font-size: 1em;
+  }
 }
-@media (max-width: 750px) {
+@media (max-width: 755px) {
   nav ul li a {
     font-size: 0.8em;
     padding: 0.4em 0.3em;
-  }
-  .btn-cta {
-    font-size: 0.7em;
   }
   h2 {
     font-size: 1.2em;
@@ -37,14 +36,14 @@
   h3 {
     text-align: center;
   }
+  .hero-wrapper {
+    display: block !important;
+  }
+  .hero-wrapper.order div:first-child {
+    order: -1 !important;
+  }
 }
-@media (max-width: 620px) {
-  h1 {
-    font-size: 1.2em;
-  }
-  .hero-overlay-paragraph {
-    font-size: 0.6em;
-  }
+@media (max-width: 627px) {
   ul {
     font-size: 1.5em;
     position: fixed;
@@ -71,14 +70,11 @@
   #menu-checkbox:checked ~ ul {
     left: 0;
   }
+  .hero-image {
+    scale: 0.9;
+  }
 }
 @media (max-width: 500px) {
-  .hero-overlay-paragraph {
-    font-size: 0.4em;
-  }
-  .btn-cta {
-    font-size: 0.6em;
-  }
   .slider {
     width: 70% !important;
   }
