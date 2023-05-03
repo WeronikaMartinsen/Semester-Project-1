@@ -1,12 +1,11 @@
-@media (max-width: 1280px) {
-  .exhibition-images {
-    height: 15em;
-  }
-}
-
 @media (max-width: 940px) {
   h1 {
     font-size: 1.8em;
+  }
+}
+@media (max-width: 810px) {
+  .s-image {
+    scale: 0.9;
   }
 }
 @media (max-width: 750px) {
@@ -19,6 +18,24 @@
   }
   h2 {
     font-size: 1.2em;
+  }
+  .exhibition-images {
+    width: 10em;
+    height: 13em;
+  }
+  .science-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .science-wrapper.order div:first-child {
+    order: 1;
+  }
+  .slider {
+    width: 75% !important;
+  }
+  h3 {
+    text-align: center;
   }
 }
 @media (max-width: 620px) {
@@ -62,9 +79,15 @@
   .btn-cta {
     font-size: 0.6em;
   }
+  .slider {
+    width: 60% !important;
+  }
 }
 @media (max-width: 420px) {
   h1 {
     font-size: 1em;
+  }
+  .s-image {
+    scale: 0.7;
   }
 }
