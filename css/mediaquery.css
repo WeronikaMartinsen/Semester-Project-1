@@ -39,8 +39,12 @@
   .hero-wrapper {
     display: block !important;
   }
-  .hero-wrapper.order div:first-child {
-    order: -1 !important;
+  .hero-overlay-text {
+    order: 1;
+  }
+
+  .hero-image {
+    order: 0;
   }
 }
 @media (max-width: 627px) {

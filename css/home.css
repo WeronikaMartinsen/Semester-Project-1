@@ -5,15 +5,21 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 3em;
+  gap: 1em;
   align-items: center;
 }
 .hero-image {
-  width: 30em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40em;
 }
+
 .hero-overlay-text {
+  width: 40%;
   display: flex;
   flex-direction: column;
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
@@ -84,7 +90,7 @@
   padding-top: 2em;
 }
 .science-wrapper {
-  border: 1px solid var(--button-default-background-color);
+  border: 1px solid var(--background-color-1);
   border-radius: 5px;
   gap: 2em;
   width: 100%;
