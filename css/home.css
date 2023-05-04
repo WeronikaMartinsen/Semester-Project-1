@@ -6,12 +6,13 @@
   justify-content: center;
   align-items: center;
 }
-.hero-image {
+.hero-div {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.hero-image {
   width: 40em;
-  object-fit: cover;
 }
 .hero-overlay-text {
   display: flex;
@@ -83,6 +84,7 @@
 .science-for-everyone {
   background-color: #ffffff;
   padding-top: 2em;
+  border-radius: var(--radius-default);
 }
 .science-wrapper {
   border: 1px solid var(--background-color-1);
@@ -102,7 +104,12 @@
   width: 30em;
   height: auto;
   float: right;
-  border-radius: 5px;
+  border-radius: var(--radius-default);
+}
+.s-image:hover,
+.s-image:active {
+  scale: 1;
+  transition: 0.7s;
 }
 .science-text {
   display: flex;
@@ -110,4 +117,7 @@
   align-items: center;
   flex-direction: column;
   text-align: start;
+  padding: 1em;
+  background-color: var(--background-color-2);
+  border-radius: var(--radius-default);
 }

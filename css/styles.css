@@ -21,7 +21,6 @@
 
 body {
   font-family: "Alegreya Sans", "Arimo", sans-serif;
-  border: 1px solid red;
 }
 #logo {
   margin: 1em 0 1em 1em;
@@ -143,20 +142,24 @@ input::placeholder {
 }
 
 h1 {
+  padding-top: 1em;
   font-size: 2em;
   color: var(--background-color-1);
+}
+.break-h1 {
+  display: block;
 }
 h2 {
   color: var(--background-color-1);
   font-weight: 600;
   text-transform: uppercase;
 }
-
 .h1-paragraph {
   font-size: 1.2em;
   font-family: var(--button-default-background-color);
   font-weight: 400;
   font-style: italic;
+  padding-top: 0.6em;
 }
 .h2-paragraph {
   font-size: 1em;
@@ -206,6 +209,11 @@ h4 {
   font-weight: 300;
   padding: 1em 3em 1em 3em;
 }
+#logo-footer {
+  width: 11em;
+  height: auto;
+  padding-left: 1em;
+}
 .footer-2,
 .footer-4 {
   display: flex;
@@ -224,7 +232,11 @@ hr {
   border-radius: var(--radius-default);
   background-color: var(--button-default-background-color);
 }
-
+.btn-footer:active,
+.btn-footer:hover {
+  background-color: var(--hover-color);
+  transition: 0.5s;
+}
 .input-footer {
   background: var(--background-color-2);
   padding: 0.3em 1em;
