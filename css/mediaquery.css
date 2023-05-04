@@ -42,19 +42,18 @@
   .hero-overlay-text {
     order: 1;
   }
-
   .hero-image {
-    order: 0;
+    scale: 0.9;
   }
 }
-@media (max-width: 627px) {
+@media (max-width: 640px) {
   ul {
     font-size: 1.5em;
     position: fixed;
     width: 100%;
-    height: 25em;
-    background-color: #0d4979;
-    top: 4em;
+    height: 15em;
+    background-color: var(--background-color-1);
+    top: 3.3em;
     left: -100%;
     text-align: center;
     transition: all 0.5s;
@@ -68,14 +67,16 @@
   }
   a:hover,
   a.active {
-    background: none;
-    color: #75bfe7;
+    border-radius: var(--radius-default);
+    background-color: var(--hover-color);
+    transition: 0.5s;
+    color: var(--background-color-1);
   }
   #menu-checkbox:checked ~ ul {
     left: 0;
   }
   .hero-image {
-    scale: 0.9;
+    scale: 0.7;
   }
 }
 @media (max-width: 500px) {

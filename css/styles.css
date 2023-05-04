@@ -15,21 +15,22 @@
   --heading-family: "Alegreya Sans", sans-serif;
   --paragraph-family: "Arimo", sans-serif;
   --button-default-background-color: #f26f63;
-  --button-default-color: white;
+  --button-default-color: #8cb2fd;
   --radius-default: 2em;
 }
 
 body {
   font-family: "Alegreya Sans", "Arimo", sans-serif;
+  border: 1px solid red;
 }
 #logo {
-  margin: 0.6em 0 0 1em;
+  margin: 1em 0 1em 1em;
   width: 13em;
   height: auto;
 }
 nav {
   background-color: var(--background-color-1);
-  height: 7em;
+  height: 5em;
   width: 100%;
   position: sticky;
   top: 0;
@@ -42,18 +43,19 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-  margin: 3em 0.9em;
+  margin: 2em 1em;
 }
 nav ul li a {
   color: white;
   font-size: 1em;
   font-weight: 500;
-  padding: 0.5em 0.7em;
+  padding: 0.4em 0.7em;
   border-radius: 0.2em;
   text-transform: uppercase;
 }
 a.active,
 a:hover {
+  border-radius: var(--radius-default);
   background-color: var(--hover-color);
   transition: 0.5s;
   color: var(--background-color-1);
@@ -73,6 +75,63 @@ a:hover {
   background-color: var(--button-default-background-color);
   border-radius: var(--radius-default);
   color: var(--background-color-1);
+}
+.search-bar {
+  margin-top: 5.1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-box {
+  position: relative;
+  height: 76px;
+  max-width: 900px;
+  width: 100%;
+  background: var(--background-color-2);
+  margin: 0 20px;
+  border-radius: var(--radius-default);
+  box-shadow: o 5px 10px rgba(0, 0, 0, 0.1);
+}
+input::placeholder {
+  color: var(--background-color-1);
+}
+.input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 155px 0 65px;
+  background-color: transparent;
+  font-size: 1em;
+  font-weight: 400;
+  border: none;
+}
+.btn-search {
+  position: absolute;
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--background-color-1);
+  border: none;
+  padding: 0.8em 1em;
+  border-radius: var(--radius-default);
+  background-color: var(--button-default-color);
+}
+.btn-search:active,
+.btn-search:hover {
+  background-color: var(--hover-color);
+  transition: 0.5s;
+}
+.search-icon {
+  font-size: 1.2em;
+  position: absolute;
+  left: 1.5em;
+  top: 34%;
+  color: var(--background-color-1);
+}
+.input-box .btn-search {
+  right: 3%;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
 .cosmos-icon {
   margin-bottom: 0.3em;
@@ -110,6 +169,9 @@ h3 {
   text-transform: uppercase;
   padding-bottom: 0.5em;
 }
+h4 {
+  margin-bottom: 0.5em;
+}
 .p-black {
   color: black;
 }
@@ -132,8 +194,49 @@ h3 {
 .btn-big {
   margin-top: 1.2em;
 }
+
 .btn-cta:active,
 .btn-cta:hover {
   background-color: var(--hover-color);
   transition: 0.5s;
+}
+.footer-container {
+  background-color: var(--background-color-1);
+  color: white;
+  font-weight: 300;
+  padding: 1em 3em 1em 3em;
+}
+.footer-2,
+.footer-4 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+hr {
+  margin: 1em;
+}
+.btn-footer {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: var(--background-color-1);
+  border: none;
+  padding: 0.3em 1em;
+  border-radius: var(--radius-default);
+  background-color: var(--button-default-background-color);
+}
+
+.input-footer {
+  background: var(--background-color-2);
+  padding: 0.3em 1em;
+  border-radius: var(--radius-default);
+  box-shadow: o 5px 10px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+.input-footer,
+.btn-footer {
+  margin-top: 1em;
+}
+.footer-icon {
+  font-size: 1.5em;
+  padding: 0.3em 0.7em 0 0;
 }
