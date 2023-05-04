@@ -62,7 +62,15 @@
       <section class="search-bar">
         <div class="input-box">
           <iconify-icon icon="wpf:search" class="search-icon"></iconify-icon>
-          <input class="input-text" type="text" placeholder="Search here..." />
+          <input
+            class="input-text"
+            type="text"
+            placeholder="Search here..."
+            aria-expanded="true"
+            aria-label="search-bar"
+            name="q"
+            role="combobox"
+          />
           <button class="btn-search" onclick="location.href='#'" type="button">
             Search
           </button>
@@ -190,12 +198,20 @@
           </p>
         </div>
         <div class="science-image">
-          <img class="s-image" src="/images/kids.png" alt="" />
+          <img
+            class="s-image"
+            src="/images/kids.png"
+            alt="Picture of kids in lab."
+          />
         </div>
       </div>
       <div class="science-wrapper order">
         <div class="science-image">
-          <img class="s-image" src="/images/teacher.png" alt="" />
+          <img
+            class="s-image"
+            src="/images/teacher.png"
+            alt="Picture of teachers."
+          />
         </div>
         <div class="science-text">
           <h3>For Teachers</h3>
@@ -228,7 +244,11 @@
           </p>
         </div>
         <div class="science-image">
-          <img class="s-image" src="/images/reasearchers.png" alt="" />
+          <img
+            class="s-image"
+            src="/images/reasearchers.png"
+            alt="Picture of researchers."
+          />
         </div>
       </div>
     </section>
@@ -253,7 +273,15 @@
             <h4>Contact:</h4>
             <p class="p-footer">Mobile: 454 546 657</p>
             <p class="p-footer">Email: museum@stavanger.gmail.com</p>
-            <input class="input-footer" type="text" placeholder="Your Email" />
+            <input
+              class="input-footer"
+              type="text"
+              placeholder="Your Email"
+              aria-expanded="true"
+              aria-label="search-bar"
+              name="q"
+              role="combobox"
+            />
             <button
               class="btn-footer"
               onclick="location.href='#'"

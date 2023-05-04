@@ -157,8 +157,8 @@ h2 {
 .h1-paragraph {
   font-size: 1.2em;
   font-family: var(--button-default-background-color);
-  font-weight: 400;
-  font-style: italic;
+  font-weight: 500;
+
   padding-top: 0.6em;
 }
 .h2-paragraph {
@@ -175,15 +175,7 @@ h3 {
 h4 {
   margin-bottom: 0.5em;
 }
-.p-black {
-  color: black;
-}
-.p-blue {
-  color: var(--button-default-background-color);
-}
-.h2-paragraph.p-blue {
-  color: var(--button-default-background-color);
-}
+
 .btn-cta {
   font-size: 1em;
   font-weight: 600;
