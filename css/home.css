@@ -89,7 +89,7 @@
 .science-wrapper {
   border: 1px solid var(--background-color-1);
   border-radius: 5px;
-  gap: 2em;
+  gap: 0.5em;
   width: 100%;
   display: flex;
   justify-content: center;

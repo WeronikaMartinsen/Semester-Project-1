@@ -14,10 +14,6 @@
   .hero-wrapper {
     display: block !important;
   }
-  .hero-wrapper div:nth-child(1) {
-    order: 1;
-  }
-
   .footer-2,
   .footer-4 {
     display: grid;
@@ -47,7 +43,7 @@
     order: 1;
   }
   .slider {
-    width: 80% !important;
+    width: 85% !important;
   }
   h3 {
     text-align: center;
@@ -85,8 +81,14 @@
   .hero-image {
     scale: 0.7;
   }
-  h1 {
-    font-size: 1.4em;
+  .input-box {
+    height: 60px;
+    font-size: 0.9em;
+  }
+  #logo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .footer-2,
   .footer-4 {
@@ -98,10 +100,10 @@
 }
 @media (max-width: 500px) {
   .slider {
-    width: 80% !important;
+    width: 85% !important;
   }
   .s-image {
-    scale: 0.7;
+    scale: 0.8;
   }
   .hero-image {
     scale: 0.6;
@@ -111,10 +113,14 @@
   }
 }
 @media (max-width: 420px) {
-  h1 {
-    font-size: 1.2em;
-  }
   .hero-image {
     scale: 0.55;
+  }
+  .s-image {
+    scale: 0.65;
+  }
+  .input-box {
+    height: 50px;
+    font-size: 0.8em;
   }
 }
