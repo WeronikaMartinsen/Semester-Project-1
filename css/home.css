@@ -43,7 +43,7 @@
   align-items: center;
 }
 .slider {
-  border-radius: 0.313em;
+  border-radius: var(--radius-default);
   background-color: var(--background-color-1);
   width: 45em;
   height: 18em;
@@ -65,7 +65,7 @@
 .exhibition-images {
   width: 12em;
   height: 15em;
-  border-radius: 0.313em;
+  border-radius: var(--radius-default);
 }
 .exhibition-images-span {
   font-size: 1.3em;
