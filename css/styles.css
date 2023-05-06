@@ -236,6 +236,10 @@ hr {
   box-shadow: o 5px 10px rgba(0, 0, 0, 0.1);
   border: none;
 }
+.input-footer:hover,
+.input-footer:active {
+  outline: none;
+}
 .input-footer,
 .btn-footer {
   margin-top: 1em;
