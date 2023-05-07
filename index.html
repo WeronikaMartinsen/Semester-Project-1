@@ -27,15 +27,6 @@
       href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule=""
-      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
-    ></script>
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
   </head>
   <body>
@@ -43,8 +34,11 @@
       <nav>
         <input type="checkbox" id="menu-checkbox" />
         <label for="menu-checkbox"
-          ><ion-icon class="menu-icon" name="menu-outline">%20</ion-icon></label
-        >
+          ><iconify-icon
+            icon="solar:hamburger-menu-bold"
+            class="menu-icon"
+          ></iconify-icon
+        ></label>
         <a class="logo-link" href="index.html">
           <img
             id="logo"
@@ -53,10 +47,14 @@
           />
         </a>
         <ul>
-          <li><a href="visit.html">Events</a></li>
-          <li><a href="events.html">For Kids</a></li>
-          <li><a href="forkids.html">For Teachers</a></li>
-          <li><a class="link-padding" href="forteachers.html">Visit Us</a></li>
+          <li><a class="nav-link" href="visit.html">Events</a></li>
+          <li><a class="nav-link" href="events.html">For Kids</a></li>
+          <li><a class="nav-link" href="forkids.html">For Teachers</a></li>
+          <li>
+            <a class="nav-link link-padding" href="forteachers.html"
+              >Visit Us</a
+            >
+          </li>
         </ul>
       </nav>
       <section class="search-bar">
@@ -262,20 +260,30 @@
           <h2>Events</h2>
           <p class="h2-paragraph">Check out our events!</p>
         </div>
-        <div class="events-image">
-          <img
-            class="event-image-div"
-            src="/images/museum-night.jpg"
-            alt="Picture of teachers."
-          />
+        <div class="event-cart">
+          <div class="cart-1">
+            <img
+              class="event-image"
+              src="/images/night-at-museum.png"
+              alt="Picture of teachers."
+            />
+          </div>
+          <div class="cart-2">
+            <h3 class="h3-events">Night at Museum</h3>
+            <p class="p-h3">
+              Get your family together for an exticing night in the museum as
+              you sleep over beside dinosaurs and science displays. Bring your
+              own sleeping bag and get ready to rought it as we go exploring the
+              wonders of science.
+            </p>
+            <button class="btn-cta" onclick="location.href='#'" type="button">
+              Book now
+            </button>
+            <a href="events.html">
+              <p class="p-link">Go to event page &rarr;</p></a
+            >
+          </div>
         </div>
-
-        <h4>Night at Museum</h4>
-        <p class="p-h4">Sleep over besides dinosaurs!</p>
-        <button class="btn-search" onclick="location.href='#'" type="button">
-          Book now
-        </button>
-        <p class="p-h4">More events</p>
       </div>
     </section>
     <footer>

@@ -1,5 +1,5 @@
 .hero-wrapper {
-  padding: 0 1em 0 1em;
+  padding: 0 1em 2em 1em;
   height: max-content;
   display: flex;
   flex-direction: row;
@@ -88,7 +88,7 @@
 }
 .science-wrapper {
   border: 1px solid var(--background-color-1);
-  border-radius: 5px;
+  border-radius: var(--radius-default);
   gap: 0.5em;
   width: 100%;
   display: flex;
@@ -111,6 +111,9 @@
   scale: 1;
   transition: 0.7s;
 }
+.event-wrapper {
+  background-color: var(--background-color-2);
+}
 .science-text {
   display: flex;
   justify-content: center;
@@ -120,4 +123,36 @@
   padding: 1em;
   background-color: var(--background-color-2);
   border-radius: var(--radius-default);
+}
+.event-wrapper {
+  padding: 2em;
+}
+.event-cart {
+  margin-top: 1em;
+  padding: 1em 1.5em 1em 1.5em;
+  border-radius: var(--radius-default);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--background-color-1);
+  gap: 1.3em;
+}
+.cart-1 {
+  height: 25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.event-image {
+  height: 25em;
+  object-fit: cover;
+  border-radius: var(--radius-default);
+}
+.cart-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

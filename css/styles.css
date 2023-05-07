@@ -23,7 +23,7 @@ body {
   font-family: "Alegreya Sans", "Arimo", sans-serif;
 }
 #logo {
-  margin: 1em 0 1em 1em;
+  margin: 1em 0 1em 1.5em;
   width: 13em;
   height: auto;
 }
@@ -44,7 +44,7 @@ nav ul li {
   display: inline-block;
   margin: 2em 1em;
 }
-nav ul li a {
+.nav-link {
   color: white;
   font-size: 1em;
   font-weight: 500;
@@ -52,8 +52,8 @@ nav ul li a {
   border-radius: 0.2em;
   text-transform: uppercase;
 }
-a.active,
-a:hover {
+.nav-link.active,
+.nav-link:hover {
   border-radius: var(--radius-default);
   background-color: var(--hover-color);
   transition: 0.5s;
@@ -70,7 +70,7 @@ a:hover {
 #menu-checkbox {
   display: none;
 }
-.link-padding {
+.nav-link.link-padding {
   background-color: var(--button-default-background-color);
   border-radius: var(--radius-default);
   color: var(--background-color-1);
@@ -140,7 +140,6 @@ input::placeholder {
   border-radius: 50%;
   background-color: var(--button-default-background-color);
 }
-
 h1 {
   padding-top: 1em;
   font-size: 2em;
@@ -172,10 +171,26 @@ h3 {
   text-transform: uppercase;
   padding-bottom: 0.5em;
 }
+.h3-events {
+  color: white;
+  font-size: 1.5em;
+}
+.p-h3 {
+  color: white;
+  margin-bottom: 1.5em;
+}
+.p-link {
+  color: white;
+  text-decoration: none !important;
+  margin-top: 2em;
+}
+.p-link:hover,
+.p-link:active {
+  color: var(--background-color-2);
+}
 h4 {
   margin-bottom: 0.5em;
 }
-
 .btn-cta {
   font-size: 1em;
   font-weight: 600;

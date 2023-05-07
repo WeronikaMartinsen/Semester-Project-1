@@ -4,6 +4,9 @@
   }
 }
 @media (max-width: 810px) {
+  .event-image {
+    scale: 0.9;
+  }
   .s-image {
     scale: 0.9;
   }
@@ -12,7 +15,10 @@
     font-size: 1em;
   }
   .hero-wrapper {
-    display: block !important;
+    flex-wrap: wrap-reverse;
+  }
+  h1 {
+    padding-top: 0;
   }
   .footer-2,
   .footer-4 {
@@ -23,7 +29,10 @@
   }
 }
 @media (max-width: 755px) {
-  nav ul li a {
+  .cart-1 {
+    height: 23em;
+  }
+  .nav-link {
     font-size: 0.8em;
     padding: 0.4em 0.3em;
   }
@@ -48,6 +57,14 @@
   h3 {
     text-align: center;
   }
+  .h3-events {
+    font-size: 1.2em;
+  }
+  .event-cart {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media (max-width: 640px) {
   ul {
@@ -68,8 +85,8 @@
   nav ul li {
     display: block;
   }
-  a:hover,
-  a.active {
+  .nav-link:hover,
+  .nav-link.active {
     border-radius: var(--radius-default);
     background-color: var(--hover-color);
     transition: 0.5s;
@@ -99,6 +116,12 @@
   }
 }
 @media (max-width: 500px) {
+  .event-image {
+    scale: 0.8;
+  }
+  .event-cart {
+    gap: 0em;
+  }
   .slider {
     width: 85% !important;
   }
@@ -122,5 +145,8 @@
   .input-box {
     height: 50px;
     font-size: 0.8em;
+  }
+  .event-image {
+    scale: 0.7;
   }
 }
