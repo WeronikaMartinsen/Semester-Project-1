@@ -82,18 +82,18 @@
   margin: 1em;
 }
 .science-for-everyone {
-  background-color: #ffffff;
   padding-top: 2em;
   border-radius: var(--radius-default);
 }
 .science-wrapper {
-  border: 1px solid var(--background-color-1);
+  background-color: var(--background-color-2);
   border-radius: var(--radius-default);
   gap: 0.5em;
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 1em;
+  margin: 1em;
 }
 .science-image {
   display: flex;
@@ -111,9 +111,7 @@
   scale: 1;
   transition: 0.7s;
 }
-.event-wrapper {
-  background-color: var(--background-color-2);
-}
+
 .science-text {
   display: flex;
   justify-content: center;
