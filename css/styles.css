@@ -140,18 +140,32 @@ input::placeholder {
   border-radius: 50%;
   background-color: var(--button-default-background-color);
 }
+.visit-icon {
+  font-size: 2em;
+}
 h1 {
   padding-top: 1em;
   font-size: 2em;
   color: var(--background-color-1);
 }
+.h1-extra-margin {
+  margin-bottom: 0.5em;
+}
 .break-h1 {
   display: block;
+}
+.h1-p-visit {
+  font-size: 1.1em;
 }
 h2 {
   color: var(--background-color-1);
   font-weight: 600;
   text-transform: uppercase;
+}
+.h2-color {
+  font-size: 1.2em;
+  margin: 0.7em;
+  text-transform: none;
 }
 .h1-paragraph {
   font-size: 1.2em;
