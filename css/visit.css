@@ -1,0 +1,37 @@
+.visit-image-hero {
+  object-fit: cover;
+  height: 18em;
+  margin: 0.5em 1em 0em 1em;
+}
+.visit-wrapper,
+.extra-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-box {
+  margin: 4.9em 1em 0em 1em;
+  height: 4em;
+  max-width: 50em;
+  width: 100%;
+  background: var(--button-default-background-color-2);
+  border-radius: var(--radius-default);
+  position: relative;
+}
+.p-visit {
+  color: var(--button-default-background-color-1);
+  font-size: 1.2em;
+  position: absolute;
+  top: 28%;
+  left: 40%;
+  font-weight: 600;
+  text-align: center;
+}
+.event-icon {
+  position: absolute;
+  font-size: 1.8em;
+  font-weight: 700;
+  top: 23%;
+  left: 32%;
+}

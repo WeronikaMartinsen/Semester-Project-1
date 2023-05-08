@@ -4,6 +4,9 @@
   }
 }
 @media (max-width: 810px) {
+  .info-box {
+    max-width: 40em;
+  }
   .event-image {
     scale: 0.9;
   }
@@ -29,6 +32,15 @@
   }
 }
 @media (max-width: 755px) {
+  .visit-image-hero {
+    height: 15em;
+  }
+  .event-icon {
+    left: 20%;
+  }
+  .p-visit {
+    left: 30%;
+  }
   .cart-1 {
     height: 23em;
   }
@@ -67,6 +79,9 @@
   }
 }
 @media (max-width: 640px) {
+  .visit-image-hero {
+    height: 12em;
+  }
   ul {
     font-size: 1.5em;
     position: fixed;
@@ -96,8 +111,9 @@
     left: 0;
   }
   .hero-image {
-    scale: 0.7;
+    scale: 0.85;
   }
+
   .input-box {
     height: 60px;
     font-size: 0.9em;
@@ -114,8 +130,22 @@
   .footer-container {
     padding: 1em 1em 1em 2em;
   }
+  .info-box {
+    max-width: 30em;
+  }
 }
 @media (max-width: 500px) {
+  .p-visit {
+    font-size: 1em;
+  }
+  .event-icon {
+    font-size: 1.2em;
+    top: 27%;
+  }
+  .info-box {
+    width: 21em;
+    height: 3em;
+  }
   .event-image {
     scale: 0.8;
   }
@@ -134,8 +164,14 @@
   #logo {
     width: 10em;
   }
+  .visit-image-hero {
+    height: 10em;
+  }
 }
 @media (max-width: 420px) {
+  .visit-image-hero {
+    height: 9em;
+  }
   .hero-image {
     scale: 0.55;
   }
@@ -148,5 +184,13 @@
   }
   .event-image {
     scale: 0.7;
+  }
+}
+@media (max-width: 370px) {
+  .visit-image-hero {
+    height: 7.7em;
+  }
+  .info-box {
+    width: 18em;
   }
 }

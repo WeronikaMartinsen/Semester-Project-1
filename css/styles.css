@@ -15,12 +15,14 @@
   --heading-family: "Alegreya Sans", sans-serif;
   --paragraph-family: "Arimo", sans-serif;
   --button-default-background-color: #f26f63;
+  --button-default-background-color-2: #fcb0b2;
   --button-default-color: #8cb2fd;
   --radius-default: 2em;
 }
 
 body {
   font-family: "Alegreya Sans", "Arimo", sans-serif;
+  border: 2px solid var(--background-color-1);
 }
 #logo {
   margin: 1em 0 1em 1.5em;
@@ -31,7 +33,6 @@ nav {
   background-color: var(--background-color-1);
   height: 5em;
   width: 100%;
-  position: sticky;
   top: 0;
   position: fixed;
   z-index: 1 !important;
@@ -76,7 +77,7 @@ nav ul li {
   color: var(--background-color-1);
 }
 .search-bar {
-  margin-top: 5.1em;
+  margin-top: 4.9em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,7 +90,6 @@ nav ul li {
   background: var(--background-color-2);
   margin: 0 20px;
   border-radius: var(--radius-default);
-  box-shadow: o 5px 10px rgba(0, 0, 0, 0.1);
 }
 input::placeholder {
   color: var(--background-color-1);
@@ -157,7 +157,6 @@ h2 {
   font-size: 1.2em;
   font-family: var(--button-default-background-color);
   font-weight: 500;
-
   padding-top: 0.6em;
 }
 .h2-paragraph {

@@ -12,7 +12,7 @@
   align-items: center;
 }
 .hero-image {
-  width: 40em;
+  width: 35em;
 }
 .hero-overlay-text {
   display: flex;
@@ -89,7 +89,6 @@
   background-color: var(--background-color-2);
   border-radius: var(--radius-default);
   gap: 0.5em;
-  width: 100%;
   display: flex;
   justify-content: center;
   padding: 1em;
@@ -108,10 +107,9 @@
 }
 .s-image:hover,
 .s-image:active {
-  scale: 1;
-  transition: 0.7s;
+  scale: 1.01;
+  transition: 0.5s;
 }
-
 .science-text {
   display: flex;
   justify-content: center;
@@ -146,6 +144,11 @@
   height: 25em;
   object-fit: cover;
   border-radius: var(--radius-default);
+}
+.event-image:hover,
+.event-image:active {
+  scale: 1.03;
+  transition: 0.5s;
 }
 .cart-2 {
   width: 50%;
