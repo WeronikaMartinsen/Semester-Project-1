@@ -19,7 +19,9 @@
   --button-default-color: #8cb2fd;
   --radius-default: 2em;
 }
-
+img {
+  max-width: 100%;
+}
 body {
   font-family: "Alegreya Sans", "Arimo", sans-serif;
 }

@@ -52,7 +52,7 @@ footer {
 }
 .main {
   grid-area: main;
-  margin: 4em 3em 1em 3em;
+  margin: 4em 0em 1em 0em;
   padding: 1em 3em 1em 3em;
 }
 #sidebar {

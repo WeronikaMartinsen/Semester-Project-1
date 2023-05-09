@@ -17,12 +17,6 @@
     left: 24%;
     font-size: 1.1em;
   }
-  .event-image {
-    scale: 0.9;
-  }
-  .s-image {
-    scale: 0.9;
-  }
   .btn-cta {
     padding: 0.8em 2.2em;
     font-size: 1em;
@@ -42,6 +36,9 @@
   }
 }
 @media (max-width: 757px) {
+  .visit-image-hero {
+    height: 11em;
+  }
   .p-visit {
     left: 12%;
   }
@@ -138,9 +135,6 @@
 }
 
 @media (max-width: 641px) {
-  .s-image {
-    scale: 0.8;
-  }
   ul {
     font-size: 1.5em;
     position: fixed;
@@ -193,9 +187,6 @@
   }
 }
 @media (max-width: 500px) {
-  .event-image {
-    scale: 0.8;
-  }
   .event-cart {
     gap: 0em;
   }
@@ -211,6 +202,9 @@
   .k-image {
     width: 22em;
   }
+  .visit-image-hero {
+    height: 9em;
+  }
 }
 @media (max-width: 420px) {
   .visit-image-hero {
@@ -219,15 +213,9 @@
   .hero-image {
     scale: 0.55;
   }
-  .s-image {
-    scale: 0.65;
-  }
   .input-box {
     height: 50px;
     font-size: 0.8em;
-  }
-  .event-image {
-    scale: 0.7;
   }
   .k-image {
     width: 20em;

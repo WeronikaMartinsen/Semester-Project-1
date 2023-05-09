@@ -74,7 +74,6 @@
 .explore-paragraph {
   margin: 1em;
 }
-
 .event-wrapper {
   padding: 2em;
 }
@@ -96,8 +95,7 @@
   width: 50%;
 }
 .event-image {
-  height: 25em;
-  object-fit: cover;
+  width: 25em;
   border-radius: var(--radius-default);
 }
 .event-image:hover,
