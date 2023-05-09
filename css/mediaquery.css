@@ -1,11 +1,25 @@
+@media (max-width: 995px) {
+  .visit-image-hero {
+    height: 14em;
+  }
+  .image-grid {
+    height: 13em;
+  }
+}
+
 @media (max-width: 935px) {
   h1 {
     font-size: 1.7em;
   }
 }
 @media (max-width: 810px) {
-  .info-box {
-    max-width: 40em;
+  .event-icon {
+    left: 8%;
+  }
+
+  .p-visit {
+    left: 24%;
+    font-size: 1.1em;
   }
   .event-image {
     scale: 0.9;
@@ -31,18 +45,55 @@
     width: max-content;
   }
 }
-@media (max-width: 755px) {
-  .visit-image-hero {
-    height: 15em;
+@media (max-width: 757px) {
+  .info-box {
+    width: 17em;
   }
-  .event-icon {
-    left: 20%;
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.4fr 0.7fr 0.7fr;
+    grid-template-areas:
+      "main"
+      "sidebar"
+      "content1"
+      "content2"
+      "content3"
+      "content4"
+      "content5"
+      "content6"
+      "contact-us"
+      "footer";
   }
-  .p-visit {
-    left: 30%;
+  #sidebar {
+    background-color: var(--background-color-2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .side-1,
+  .side-1.extra-margin {
+    margin: 0;
+  }
+  .image-grid {
+    width: 50%;
+    height: auto;
+  }
+  .content1,
+  .content2,
+  .content3,
+  .content4,
+  .content5,
+  .content6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .cart-1 {
     height: 23em;
+  }
+  .cart2 {
+    width: 100%;
   }
   .nav-link {
     font-size: 0.8em;
@@ -78,10 +129,8 @@
     align-items: center;
   }
 }
-@media (max-width: 640px) {
-  .visit-image-hero {
-    height: 12em;
-  }
+
+@media (max-width: 641px) {
   ul {
     font-size: 1.5em;
     position: fixed;
@@ -113,7 +162,6 @@
   .hero-image {
     scale: 0.85;
   }
-
   .input-box {
     height: 60px;
     font-size: 0.9em;
@@ -130,30 +178,16 @@
   .footer-container {
     padding: 1em 1em 1em 2em;
   }
-  .info-box {
-    max-width: 30em;
+  .slider {
+    width: 70% !important;
   }
 }
 @media (max-width: 500px) {
-  .p-visit {
-    font-size: 1em;
-  }
-  .event-icon {
-    font-size: 1.2em;
-    top: 27%;
-  }
-  .info-box {
-    width: 21em;
-    height: 3em;
-  }
   .event-image {
     scale: 0.8;
   }
   .event-cart {
     gap: 0em;
-  }
-  .slider {
-    width: 85% !important;
   }
   .s-image {
     scale: 0.8;
@@ -165,7 +199,7 @@
     width: 10em;
   }
   .visit-image-hero {
-    height: 10em;
+    height: 9em;
   }
 }
 @media (max-width: 420px) {
@@ -189,8 +223,5 @@
 @media (max-width: 370px) {
   .visit-image-hero {
     height: 7.7em;
-  }
-  .info-box {
-    width: 18em;
   }
 }
