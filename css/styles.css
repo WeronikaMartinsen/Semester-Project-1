@@ -235,13 +235,19 @@ h4 {
   margin-top: 1.2em;
 }
 .btn-kids {
-  padding: 1em 2em;
+  padding: 1em 3em;
   border-radius: var(--radius-default);
   border-style: none;
   background-color: var(--background-color-2);
   color: var(--background-color-1);
+  text-transform: uppercase;
 }
-
+.btn-kids:hover,
+.btn-kids:active {
+  background-color: var(--background-color-1);
+  color: white;
+  transition: 0.7s;
+}
 .btn-cta:active,
 .btn-cta:hover {
   background-color: var(--hover-color);
@@ -337,6 +343,7 @@ hr {
   flex-direction: column;
   text-align: start;
   padding: 1em;
+  width: 50%;
 }
 .exhibition-div1 {
   margin-top: 1em;

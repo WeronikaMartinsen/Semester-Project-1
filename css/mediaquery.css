@@ -1,6 +1,6 @@
 @media (max-width: 995px) {
   .visit-image-hero {
-    height: 14em;
+    height: 12em;
   }
   .image-grid {
     height: 13em;
@@ -72,7 +72,7 @@
     margin: 0;
   }
   .image-grid {
-    width: 50%;
+    width: 70%;
     height: auto;
   }
   .content1,
@@ -84,13 +84,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 2em;
   }
-  .cart-1 {
-    height: 23em;
-  }
-  .cart2 {
-    width: 100%;
-  }
+
   .nav-link {
     font-size: 0.8em;
     padding: 0.4em 0.3em;
@@ -110,6 +106,9 @@
   .science-wrapper.order div:first-child {
     order: 1;
   }
+  .science-text {
+    width: 100%;
+  }
   .slider {
     width: 85% !important;
   }
@@ -121,7 +120,6 @@
   }
   .event-cart {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
   .text-overlay {
@@ -131,6 +129,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+  }
+  .event-image {
+    width: 100%;
+  }
+  .cart-2 {
+    padding-bottom: 2em;
+  }
+  .cart-1 {
+    padding: 2em 0 2em 0;
   }
 }
 
@@ -182,36 +190,24 @@
   .footer-container {
     padding: 1em 1em 1em 2em;
   }
-  .slider {
-    width: 70% !important;
-  }
 }
 @media (max-width: 500px) {
   .event-cart {
-    gap: 0em;
-  }
-  .hero-image {
-    scale: 0.6;
+    padding: 1em 0 2em 0 !important;
   }
   #logo {
     width: 10em;
   }
   .visit-image-hero {
-    height: 9em;
+    height: 8em;
   }
   .k-image {
     width: 22em;
   }
-  .visit-image-hero {
-    height: 9em;
-  }
 }
 @media (max-width: 420px) {
-  .visit-image-hero {
-    height: 9em;
-  }
-  .hero-image {
-    scale: 0.55;
+  .h1-paragraph {
+    font-size: 1.05em;
   }
   .input-box {
     height: 50px;

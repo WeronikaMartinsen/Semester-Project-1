@@ -57,7 +57,7 @@ footer {
 }
 #sidebar {
   border: 1px solid var(--background-color-2);
-  background-color: white;
+  background-color: var(--button-default-background-color-2);
   grid-area: sidebar;
   width: 100%;
 }
@@ -143,4 +143,5 @@ footer {
 .image-grid:hover,
 .image-grid:active {
   scale: 1.02;
+  transition: 0.7s;
 }
