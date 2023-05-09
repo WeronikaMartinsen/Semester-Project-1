@@ -16,7 +16,6 @@
   .event-icon {
     left: 8%;
   }
-
   .p-visit {
     left: 24%;
     font-size: 1.1em;
@@ -131,6 +130,9 @@
 }
 
 @media (max-width: 641px) {
+  .s-image {
+    scale: 0.8;
+  }
   ul {
     font-size: 1.5em;
     position: fixed;
@@ -189,9 +191,6 @@
   .event-cart {
     gap: 0em;
   }
-  .s-image {
-    scale: 0.8;
-  }
   .hero-image {
     scale: 0.6;
   }
@@ -200,6 +199,9 @@
   }
   .visit-image-hero {
     height: 9em;
+  }
+  .k-image {
+    width: 22em;
   }
 }
 @media (max-width: 420px) {
@@ -219,9 +221,15 @@
   .event-image {
     scale: 0.7;
   }
+  .k-image {
+    width: 20em;
+  }
 }
 @media (max-width: 370px) {
   .visit-image-hero {
     height: 7.7em;
+  }
+  .k-image {
+    width: 18em;
   }
 }

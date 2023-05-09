@@ -196,6 +196,9 @@ h3 {
   font-size: 1.3em;
   text-transform: none;
 }
+.p-kids {
+  padding: 1em;
+}
 .p-h3 {
   color: white;
   margin-bottom: 1.5em;
@@ -284,4 +287,48 @@ hr {
 .footer-icon {
   font-size: 1.5em;
   padding: 0.3em 0.7em 0 0;
+}
+.science-for-everyone {
+  padding-top: 2em;
+  border-radius: var(--radius-default);
+}
+.science-wrapper {
+  border: 2px solid var(--background-color-2);
+  border-radius: var(--radius-default);
+  gap: 0.5em;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  margin: 1em;
+}
+.science-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s-image {
+  width: 30em;
+  height: auto;
+  float: right;
+  border-radius: var(--radius-default);
+}
+.s-image:hover,
+.s-image:active {
+  scale: 1.01;
+  transition: 0.5s;
+}
+.science-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: start;
+  padding: 1em;
+}
+.exhibition-div1 {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -35,13 +35,6 @@
   padding: 2em;
   background-color: #e8f2fb;
 }
-.exhibition-div1 {
-  margin-top: 1em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .slider {
   border-radius: var(--radius-default);
   background-color: var(--background-color-1);
@@ -81,45 +74,7 @@
 .explore-paragraph {
   margin: 1em;
 }
-.science-for-everyone {
-  padding-top: 2em;
-  border-radius: var(--radius-default);
-}
-.science-wrapper {
-  background-color: var(--background-color-2);
-  border-radius: var(--radius-default);
-  gap: 0.5em;
-  display: flex;
-  justify-content: center;
-  padding: 1em;
-  margin: 1em;
-}
-.science-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.s-image {
-  width: 30em;
-  height: auto;
-  float: right;
-  border-radius: var(--radius-default);
-}
-.s-image:hover,
-.s-image:active {
-  scale: 1.01;
-  transition: 0.5s;
-}
-.science-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: start;
-  padding: 1em;
-  background-color: var(--background-color-2);
-  border-radius: var(--radius-default);
-}
+
 .event-wrapper {
   padding: 2em;
 }

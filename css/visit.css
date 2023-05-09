@@ -137,6 +137,10 @@ footer {
   text-transform: uppercase;
   color: var(--button-default-background-color-1);
 }
+.btn-visit:hover,
+.btn-visit:active {
+  background-color: var(--button-default-background-color);
+}
 .image-grid {
   object-fit: cover;
   width: 100%;

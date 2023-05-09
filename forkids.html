@@ -10,41 +10,206 @@
     />
     <title>Community Science Museum /For Kids</title>
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/forkids.css" rel="stylesheet" />
     <link href="css/mediaquery.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
   </head>
   <body>
-    <section class="explore-together">
-      <div class="exhibition-div1">
-        <iconify-icon
-          icon="fluent-mdl2:explore-data"
-          class="cosmos-icon"
-        ></iconify-icon>
-        <h2 class="p-black">Explore together</h2>
-        <p class="h2-paragraph p-blue">
-          Make sure you come ready to learn and explore
-        </p>
-        <div class="explore-paragraph">
-          <p>
-            Over the course of human history, science has developed from our
-            early understanding
-          </p>
-          <p>
-            of fire, wind, water, and earth to exploring everything from
-            galaxies far away
-          </p>
-          <p>
-            to the very building blocks of life itself. The aim of our museum is
-            to create a space
-          </p>
-          <p>
-            where everyone can experience the wonders of our discoveries and
-            perhaps
-          </p>
-          <p>
-            even ignite a lifelong passion to continue the exploration of the
-            world- around.
-          </p>
+    <header>
+      <nav>
+        <input type="checkbox" id="menu-checkbox" />
+        <label for="menu-checkbox"
+          ><iconify-icon
+            icon="solar:hamburger-menu-bold"
+            class="menu-icon"
+          ></iconify-icon
+        ></label>
+        <a class="logo-link" href="index.html">
+          <img
+            id="logo"
+            src="images/museum-logo.png"
+            alt="This is the logo of the website."
+          />
+        </a>
+        <ul>
+          <li><a class="nav-link" href="events.html">Events</a></li>
+          <li><a class="nav-link" href="forkids.html">For Kids</a></li>
+          <li><a class="nav-link" href="forteachers.html">For Teachers</a></li>
+          <li>
+            <a class="nav-link link-padding" href="visit.html">Visit Us</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="hero-kids">
+        <div class="kids-hero-image">
+          <img
+            class="hero-image-kids"
+            src="images/hero.kids.jpg"
+            alt="Young girl having fun at the museum."
+          />
+          <div class="text-overlay">
+            <h1>Let`s have fun together!</h1>
+            <p class="h1-paragraph">Join our science group!</p>
+          </div>
+        </div>
+      </section>
+    </header>
+    <section class="science-for-everyone">
+      <div class="science-wrapper order">
+        <div class="science-image">
+          <img
+            class="k-image"
+            src="/images/kids1.jpg"
+            alt="Picture of teachers."
+          />
+        </div>
+        <div class="science-text">
+          <div class="exhibition-div1">
+            <iconify-icon
+              icon="ic:round-star-border"
+              class="cosmos-icon"
+            ></iconify-icon>
+            <h2>Young Star</h2>
+            <p class="h2-paragraph">Science Club for the youngest!</p>
+            <p class="p-kids">
+              Young Stars club which meets once a week on a Saturday between
+              10:00 and 13:00 where you’ll get to explore and experiment with
+              our team of experts. 
+            </p>
+          </div>
         </div>
       </div>
+      <div class="science-wrapper">
+        <div class="science-text">
+          <div class="exhibition-div1">
+            <iconify-icon
+              icon="arcticons:physics-wallah"
+              class="cosmos-icon"
+            ></iconify-icon>
+            <h2>newtonian physics</h2>
+            <p class="h2-paragraph">Explore the wonders of our universe</p>
+          </div>
+          <p class="p-kids">
+            You can learn about Newtonian physics from our bumper swing, or why
+            not travel back in time and meet our resident Woolly Mammoth? Our
+            exhibits are designed to be accessible for interested minds, so make
+            sure you come ready to learn and explore. 
+          </p>
+        </div>
+        <div class="science-image">
+          <img
+            class="k-image"
+            src="/images/kids-2.png"
+            alt="Picture of kids in lab."
+          />
+        </div>
+      </div>
+      <div class="science-wrapper order">
+        <div class="science-image">
+          <img
+            class="k-image"
+            src="/images/kids3.jpg"
+            alt="Picture of teachers."
+          />
+        </div>
+        <div class="science-text">
+          <div class="exhibition-div1">
+            <iconify-icon
+              icon="devicon:cosmosdb"
+              class="cosmos-icon"
+            ></iconify-icon>
+            <h2>Exhibition space</h2>
+            <p class="h2-paragraph">Explore the wonders of our universe</p>
+            <p class="p-kids">
+              As a community-driven museum, we want to work with schools to
+              create places of learning and exploring. Our team are on hand to
+              give your students guided tours of the museum, teach them in our
+              earning laboratory, and provide great video presentations that
+              will excite and inspire them.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-1">
+          <a href="index.html">
+            <img
+              id="logo-footer"
+              src="images/museum-logo.png"
+              alt="This is the logo of the website."
+            />
+          </a>
+        </div>
+        <div class="footer-2">
+          <div class="box-1">
+            <h4>Location:</h4>
+            <p class="p-footer">Valvatna 4</p>
+            <p class="p-footer">56-345 Stavanger, Norway</p>
+          </div>
+          <div class="box-2">
+            <h4>Contact:</h4>
+            <p class="p-footer">Mobile: 454 546 657</p>
+            <p class="p-footer">Email: museum@stavanger.gmail.com</p>
+            <input
+              class="input-footer"
+              type="text"
+              placeholder="Your Email"
+              aria-expanded="true"
+              aria-label="search-bar"
+              name="q"
+              role="combobox"
+            />
+            <button
+              class="btn-footer"
+              onclick="location.href='#'"
+              type="button"
+            >
+              Send
+            </button>
+          </div>
+          <div class="box-3">
+            <h4>Follow us:</h4>
+            <iconify-icon
+              icon="logos:facebook"
+              class="footer-icon"
+            ></iconify-icon>
+            <iconify-icon
+              icon="skill-icons:instagram"
+              class="footer-icon"
+            ></iconify-icon>
+            <iconify-icon
+              icon="logos:twitter"
+              class="footer-icon"
+            ></iconify-icon>
+          </div>
+          <div class="box-4">
+            <h4>Opening hours:</h4>
+            <p class="p-footer">Monday: Closed</p>
+            <p class="p-footer">Tuesday-Fri: 10-16</p>
+            <p class="p-footer">Sat-Sun: 9-13</p>
+          </div>
+        </div>
+        <div class="footer-3"><hr /></div>
+        <div class="footer-4">
+          <div class="box1"><p>&copy; Copyright 2023</p></div>
+          <div class="box1"><p>Privacy Policy</p></div>
+          <div class="box1"><p>Terms and Conditions</p></div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

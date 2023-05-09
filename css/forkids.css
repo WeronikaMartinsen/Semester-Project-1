@@ -1,0 +1,22 @@
+.hero-image-kids {
+  width: 100%;
+  object-fit: cover;
+}
+.kids-hero-image {
+  width: 100%;
+  margin-top: 3em;
+  position: relative;
+}
+.text-overlay {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.k-image {
+  width: 25em;
+  border-radius: var(--radius-default);
+}
+.k-image:hover,
+.k-image:active {
+  scale: 1.02;
+}
