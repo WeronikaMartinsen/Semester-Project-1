@@ -13,9 +13,6 @@
   }
 }
 @media (max-width: 810px) {
-  .event-icon {
-    left: 8%;
-  }
   .p-visit {
     left: 24%;
     font-size: 1.1em;
@@ -45,8 +42,11 @@
   }
 }
 @media (max-width: 757px) {
+  .p-visit {
+    left: 12%;
+  }
   .info-box {
-    width: 17em;
+    width: 18em;
   }
   .grid-container {
     grid-template-columns: 1fr;
@@ -123,6 +123,14 @@
     font-size: 1.2em;
   }
   .event-cart {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-overlay {
+    margin-top: 1em;
+    position: static;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
