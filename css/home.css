@@ -37,7 +37,7 @@
 }
 .slider {
   border-radius: var(--radius-default);
-  background-color: white;
+  background-color: var(--background-color-1);
   width: 45em;
   height: 18em;
   display: flex;
