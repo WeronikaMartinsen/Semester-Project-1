@@ -1,6 +1,6 @@
 .visit-image-hero {
   object-fit: cover;
-  height: 18em;
+  width: 100%;
   margin: 0.5em 1em 0em 1em;
 }
 .visit-hero-text {

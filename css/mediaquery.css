@@ -1,7 +1,4 @@
 @media (max-width: 995px) {
-  .visit-image-hero {
-    height: 12em;
-  }
   .image-grid {
     height: 13em;
   }
@@ -22,8 +19,14 @@
     font-size: 1em;
   }
   .hero-wrapper {
+    flex-direction: column;
     flex-wrap: wrap-reverse;
   }
+  .text-overlay,
+  .hero-div {
+    width: 100%;
+  }
+
   h1 {
     padding-top: 0;
   }
@@ -36,9 +39,6 @@
   }
 }
 @media (max-width: 757px) {
-  .visit-image-hero {
-    height: 11em;
-  }
   .p-visit {
     left: 12%;
   }
@@ -115,13 +115,6 @@
   h3 {
     text-align: center;
   }
-  .h3-events {
-    font-size: 1.2em;
-  }
-  .event-cart {
-    flex-direction: column;
-    align-items: center;
-  }
   .text-overlay {
     margin-top: 1em;
     position: static;
@@ -134,15 +127,23 @@
   .event-image {
     width: 100%;
   }
-  .cart-2 {
-    padding-bottom: 2em;
-  }
-  .cart-1 {
-    padding: 2em 0 2em 0;
-  }
 }
 
 @media (max-width: 641px) {
+  .h3-events {
+    font-size: 1.2em;
+  }
+  .event-cart {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cart-1,
+  .cart-2 {
+    width: 100%;
+  }
+  .event-image {
+    width: 70%;
+  }
   ul {
     font-size: 1.5em;
     position: fixed;
@@ -198,9 +199,6 @@
   #logo {
     width: 10em;
   }
-  .visit-image-hero {
-    height: 8em;
-  }
   .k-image {
     width: 22em;
   }
@@ -218,9 +216,6 @@
   }
 }
 @media (max-width: 370px) {
-  .visit-image-hero {
-    height: 7.7em;
-  }
   .k-image {
     width: 18em;
   }

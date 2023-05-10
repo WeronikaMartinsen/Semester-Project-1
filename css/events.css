@@ -1,3 +1,11 @@
 .hero-container.event-hero {
-  margin-top: 6em;
+  margin-top: 5em;
+  padding: 1em;
+}
+header {
+  background-color: var(--background-color-2);
+}
+.extra-info-event {
+  text-align: start;
+  padding: 3em;
 }

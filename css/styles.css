@@ -180,6 +180,7 @@ h2 {
   font-family: var(--button-default-background-color);
   font-weight: 500;
   font-style: italic;
+  margin: 0.3em 0 0.4em 0;
 }
 .p-h2 {
   text-align: center;
@@ -207,6 +208,9 @@ h3 {
 .p-kids {
   padding: 1em;
 }
+.p-event {
+  font-size: 1.1em;
+}
 .p-h3 {
   color: white;
   margin: 1em;
@@ -228,6 +232,9 @@ h3 {
 .p-link:hover,
 .p-link:active {
   color: var(--background-color-2);
+}
+.p-link.black {
+  color: black;
 }
 h4 {
   margin-bottom: 0.5em;
@@ -374,15 +381,14 @@ hr {
   align-items: center;
 }
 .hero-wrapper {
-  padding: 0 1em 2em 1em;
-  height: max-content;
+  padding: 1em 1em 2em 1em;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 .hero-div {
-  width: 50%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -405,22 +411,26 @@ hr {
   margin-top: 1em;
 }
 .event-wrapper {
-  padding: 2em;
+  padding: 1em;
 }
 .event-cart {
   margin-top: 1em;
   padding: 1em;
   border-radius: var(--radius-default);
   background-color: #432a88;
-  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   border: 3px dashed black;
   gap: 1em;
 }
 .event-cart.red-color {
   background-color: var(--button-default-background-color);
 }
+.event-cart.white-color {
+  background-color: #e4e2e5;
+}
+.cart-1,
 .cart-2 {
   width: 50%;
   display: flex;
@@ -428,15 +438,11 @@ hr {
   align-items: center;
 }
 .cart-2 {
-  width: 50%;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .event-image {
   object-fit: cover;
-  width: 65%;
+  width: 80%;
   border-radius: var(--radius-default);
 }
 .event-image:hover,
