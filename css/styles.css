@@ -397,7 +397,7 @@ hr {
   width: 100%;
 }
 .hero-overlay-text {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -442,7 +442,7 @@ hr {
 }
 .event-image {
   object-fit: cover;
-  width: 80%;
+  width: 60%;
   border-radius: var(--radius-default);
 }
 .event-image:hover,

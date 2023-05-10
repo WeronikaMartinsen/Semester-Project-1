@@ -5,6 +5,12 @@
 }
 
 @media (max-width: 935px) {
+  .event-image {
+    width: 100%;
+  }
+  .side-1 {
+    margin-top: 0.5em;
+  }
   h1 {
     font-size: 1.7em;
   }
