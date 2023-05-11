@@ -149,6 +149,9 @@ h1 {
   font-size: 2em;
   color: var(--background-color-1);
 }
+.h1-color {
+  color: var(--button-default-background-color);
+}
 .h1-extra-margin {
   margin-bottom: 0.5em;
 }
@@ -165,7 +168,7 @@ h2 {
 }
 .h2-color {
   font-size: 1.2em;
-  margin: 0.7em;
+  margin: 0.2em;
   text-transform: none;
   text-align: center;
 }
@@ -184,7 +187,7 @@ h2 {
 }
 .p-h2 {
   text-align: center;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 h3 {
   font-weight: 700;
@@ -210,6 +213,7 @@ h3 {
 }
 .p-event {
   font-size: 1.1em;
+  text-align: center;
 }
 .p-h3 {
   color: white;

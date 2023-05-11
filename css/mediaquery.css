@@ -1,15 +1,9 @@
 @media (max-width: 995px) {
-  .image-grid {
-    height: 13em;
-  }
 }
 
 @media (max-width: 935px) {
   .event-image {
     width: 100%;
-  }
-  .side-1 {
-    margin-top: 0.5em;
   }
   h1 {
     font-size: 1.7em;
@@ -77,10 +71,7 @@
   .side-1.extra-margin {
     margin: 0;
   }
-  .image-grid {
-    width: 70%;
-    height: auto;
-  }
+
   .content1,
   .content2,
   .content3,
@@ -90,7 +81,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 2em;
+    padding: 0 1em 0 1em;
   }
 
   .nav-link {
