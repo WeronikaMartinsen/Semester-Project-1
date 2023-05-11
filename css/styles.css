@@ -163,7 +163,7 @@ h1 {
 }
 h2 {
   color: var(--background-color-1);
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .h2-color {
@@ -198,6 +198,13 @@ h3 {
   color: white;
   font-size: 1.5em;
 }
+.h-center {
+  text-align: center;
+}
+.h-center:hover,
+.h-center:active {
+  color: var(--button-default-background-color);
+}
 .h3-events.p-color {
   color: black;
 }
@@ -214,6 +221,7 @@ h3 {
 .p-event {
   font-size: 1.1em;
   text-align: center;
+  padding: 0 1em 0 1em;
 }
 .p-h3 {
   color: white;
@@ -232,6 +240,11 @@ h3 {
 .p-link.link-color {
   color: var(--background-color-1);
   font-size: 1.1em;
+}
+.p-link.black.size {
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 1em;
 }
 .p-link:hover,
 .p-link:active {
@@ -453,4 +466,44 @@ hr {
 .event-image:active {
   scale: 1.03;
   transition: 0.5s;
+}
+#contact-us {
+  margin-top: 2em;
+  grid-area: contact-us;
+  background-color: var(--background-color-2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0 1em 0;
+  width: 100%;
+}
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+.btn-visit,
+.input-visit {
+  color: var(--paragraph-color);
+  width: 28em;
+  margin: 0.5em;
+  padding: 1em;
+  border-radius: var(--radius-default);
+  border-style: none;
+}
+.input-visit.bigger {
+  padding: 1em 0 7em 1em;
+}
+.btn-visit {
+  background-color: var(--button-default-background-color-2);
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--button-default-background-color-1);
+}
+.btn-visit:hover,
+.btn-visit:active {
+  background-color: var(--button-default-background-color);
 }

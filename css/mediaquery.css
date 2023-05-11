@@ -201,6 +201,11 @@
   }
 }
 @media (max-width: 420px) {
+  .input-visit.teachers-,
+  .input-visit.bigger.teachers-,
+  .btn-visit.teachers- {
+    width: 23em;
+  }
   .h1-paragraph {
     font-size: 1.05em;
   }

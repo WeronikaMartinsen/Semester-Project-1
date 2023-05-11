@@ -94,46 +94,6 @@ footer {
   grid-area: content6;
 }
 
-#contact-us {
-  margin-top: 2em;
-  grid-area: contact-us;
-  background-color: var(--background-color-2);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2em 0 1em 0;
-  width: 100%;
-}
-.input-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 1em;
-}
-.btn-visit,
-.input-visit {
-  color: var(--paragraph-color);
-  width: 28em;
-  margin: 0.5em;
-  padding: 1em;
-  border-radius: var(--radius-default);
-  border-style: none;
-}
-.input-visit.bigger {
-  padding: 1em 0 7em 1em;
-}
-.btn-visit {
-  background-color: var(--button-default-background-color-2);
-  font-weight: 600;
-  text-transform: uppercase;
-  color: var(--button-default-background-color-1);
-}
-.btn-visit:hover,
-.btn-visit:active {
-  background-color: var(--button-default-background-color);
-}
 .image-grid {
   object-fit: cover;
   width: 100%;
