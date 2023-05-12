@@ -14,10 +14,13 @@
   display: flex;
   overflow-x: auto;
   align-items: center;
-  margin-top: 1em;
+  margin: 1em;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
+  position: relative;
+  width: 100%;
 }
+
 .slide {
   display: flex;
   justify-content: center;
