@@ -25,6 +25,9 @@ img {
 body {
   font-family: "Alegreya Sans", "Arimo", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 #logo {
   margin: 1em 0 1em 1.5em;
   width: 13em;
