@@ -82,7 +82,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 1em 0 1em;
   }
 
   .nav-link {
@@ -128,9 +127,6 @@
 }
 
 @media (max-width: 641px) {
-  .image-grid {
-    width: 90%;
-  }
   .h3-events {
     font-size: 1.2em;
   }
