@@ -24,6 +24,9 @@
   background: var(--background-color-2);
   border-radius: var(--radius-default);
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .p-visit {
   color: var(--button-default-background-color-1);
