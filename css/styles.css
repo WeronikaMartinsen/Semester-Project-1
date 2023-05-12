@@ -220,7 +220,7 @@ h3 {
 }
 .p-event {
   font-size: 1.1em;
-  text-align: start;
+  text-align: center;
   padding: 0 1em 0 1em;
   max-width: 36em;
 }
@@ -476,7 +476,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2em 0 1em 0;
+  padding: 2em 1em 1em 1em;
   width: 100%;
 }
 .input-div {
