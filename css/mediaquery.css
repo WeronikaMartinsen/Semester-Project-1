@@ -127,6 +127,9 @@
 }
 
 @media (max-width: 641px) {
+  .grid-image {
+    width: 80%;
+  }
   .h3-events {
     font-size: 1.2em;
   }
