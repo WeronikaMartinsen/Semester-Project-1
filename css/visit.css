@@ -96,11 +96,18 @@ footer {
 .content6 {
   grid-area: content6;
 }
+.content1,
+.content2,
+.content3,
+.content4,
+.content5,
+.content6 {
+  padding: 1em;
+}
 
 .image-grid {
   object-fit: cover;
   width: 100%;
-
   border-radius: var(--radius-default);
 }
 .image-grid:hover,
