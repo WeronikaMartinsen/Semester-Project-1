@@ -17,8 +17,6 @@
   margin: 1em;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
-  position: relative;
-  width: 100%;
 }
 
 .slide {
