@@ -370,6 +370,7 @@ hr {
   justify-content: center;
   padding: 1em;
   margin: 1em;
+  background-color: var(--background-color-2);
 }
 .science-image {
   display: flex;
