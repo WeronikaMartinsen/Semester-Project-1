@@ -27,6 +27,7 @@ body {
 }
 html {
   scroll-behavior: smooth;
+  font-size: 1.1em;
 }
 #logo {
   margin: 1em 0 1em 1.5em;
@@ -65,7 +66,7 @@ nav ul li {
   color: var(--background-color-1);
 }
 .menu-icon {
-  font-size: 2.5em;
+  font-size: 2em;
   float: right;
   margin: 0.4em 0.5em;
   cursor: pointer;
