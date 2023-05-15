@@ -489,7 +489,7 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   margin: 1em;
 }
 .btn-visit,
@@ -500,9 +500,14 @@ hr {
   padding: 1em;
   border-radius: var(--radius-default);
   border-style: none;
+  margin-bottom: 1.5em;
 }
 .input-visit.bigger {
   padding: 1em 0 7em 1em;
+}
+.input-visit,
+.input-visit.bigger {
+  font-style: italic;
 }
 .btn-visit {
   background-color: var(--button-default-background-color-2);
@@ -513,4 +518,8 @@ hr {
 .btn-visit:hover,
 .btn-visit:active {
   background-color: var(--button-default-background-color);
+}
+.label-text {
+  padding-left: 1em;
+  font-size: 1em;
 }
