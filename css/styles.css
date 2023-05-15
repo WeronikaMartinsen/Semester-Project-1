@@ -372,11 +372,6 @@ hr {
   margin: 1em;
   background-color: var(--background-color-2);
 }
-.science-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .s-image {
   width: 30em;
   height: auto;
@@ -401,7 +396,6 @@ hr {
   margin-top: 1em;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .hero-wrapper {
@@ -414,20 +408,13 @@ hr {
 }
 .hero-div {
   width: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .hero-image {
   width: 100%;
 }
 .hero-overlay-text {
   width: 40%;
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 .break-h1 {
   display: block;
@@ -489,8 +476,6 @@ hr {
 .input-div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: start;
   margin: 1em;
 }
 .btn-visit,
@@ -523,4 +508,8 @@ hr {
 .label-text {
   padding-left: 1em;
   font-size: 1em;
+}
+.vis-label {
+  color: white;
+  font-size: 0;
 }

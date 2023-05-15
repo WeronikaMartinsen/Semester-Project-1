@@ -13,20 +13,15 @@
 .extra-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .info-box {
   margin: 0 1em 0em 1em;
   height: 3em;
   max-width: 40em;
-  width: 100%;
   background: var(--background-color-2);
   border-radius: var(--radius-default);
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .p-visit {
   color: var(--button-default-background-color-1);
