@@ -1,7 +1,9 @@
 .visit-image-hero {
-  object-fit: cover;
   width: 100%;
-  margin: 0.5em 1em 0em 1em;
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .visit-hero-text {
   display: flex;
