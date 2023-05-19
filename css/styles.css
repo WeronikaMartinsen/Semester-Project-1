@@ -76,6 +76,9 @@ nav ul li {
 #menu-checkbox {
   display: none;
 }
+.visually-hidden {
+  display: none;
+}
 .nav-link.link-padding {
   background-color: var(--button-default-background-color);
   border-radius: var(--radius-default);
@@ -111,7 +114,7 @@ input::placeholder {
 }
 .btn-search {
   position: absolute;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 400;
   color: var(--background-color-1);
   border: none;
@@ -148,6 +151,9 @@ input::placeholder {
 .visit-icon {
   font-size: 2em;
 }
+p {
+  font-size: 1.1em;
+}
 h1 {
   padding-top: 1em;
   font-size: 2em;
@@ -180,10 +186,10 @@ h2 {
   font-size: 1.2em;
   font-family: var(--button-default-background-color);
   font-weight: 500;
-  padding-top: 0.6em;
+  padding-top: 0.4em;
 }
 .h2-paragraph {
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-family: var(--button-default-background-color);
   font-weight: 500;
   font-style: italic;
@@ -195,7 +201,7 @@ h2 {
   line-height: 1.4;
 }
 h3 {
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
   padding-bottom: 0.5em;
 }
@@ -211,9 +217,6 @@ h3 {
   color: var(--button-default-background-color);
 }
 .h3-events.p-color {
-  color: black;
-}
-.p-h3.p-color {
   color: black;
 }
 .h3-visit {
@@ -399,7 +402,6 @@ hr {
   align-items: center;
 }
 .hero-wrapper {
-  padding: 1em 1em 2em 1em;
   margin: 1em 2em 0 2em;
   display: flex;
   flex-direction: row;
@@ -407,13 +409,13 @@ hr {
   align-items: center;
 }
 .hero-div {
-  width: 60%;
+  width: 50%;
 }
 .hero-image {
   width: 100%;
 }
 .hero-overlay-text {
-  width: 40%;
+  width: 50%;
   text-align: center;
 }
 .break-h1 {
