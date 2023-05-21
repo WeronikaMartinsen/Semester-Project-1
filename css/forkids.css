@@ -16,6 +16,11 @@
   width: 25em;
   border-radius: var(--radius-default);
 }
+.science-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .k-image:hover,
 .k-image:active {
   scale: 1.02;

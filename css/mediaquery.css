@@ -45,6 +45,15 @@
     font-size: 0.8em;
     padding: 0.4em 0.3em;
   }
+  .text-overlay {
+    margin-top: 1em;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 @media (max-width: 757px) {
   .p-visit {
@@ -98,19 +107,10 @@
   .science-text {
     width: 100%;
   }
-
   h3 {
     text-align: center;
   }
-  .text-overlay {
-    margin-top: 1em;
-    position: static;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+
   .event-image {
     width: 100%;
   }
@@ -119,6 +119,9 @@
   }
 }
 @media (max-width: 700px) {
+  .science-text {
+    padding: 0;
+  }
   h3 {
     font-size: 1.2em;
   }

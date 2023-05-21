@@ -223,9 +223,6 @@ h3 {
   font-size: 1.3em;
   text-transform: none;
 }
-.p-kids {
-  padding: 1em;
-}
 .p-event {
   font-size: 1.1em;
   text-align: center;
@@ -370,7 +367,6 @@ hr {
   padding: 0.3em 0.7em 0 0;
 }
 .science-for-everyone {
-  padding-top: 2em;
   border-radius: var(--radius-default);
 }
 .science-wrapper {
