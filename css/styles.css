@@ -250,6 +250,10 @@ h3 {
   color: var(--background-color-1);
   font-size: 1.1em;
 }
+.p-link.link-color:hover,
+.p-link.link-color:active {
+  color: var(--button-default-background-color);
+}
 .p-link.black.size {
   text-align: center;
   font-size: 1.1em;
