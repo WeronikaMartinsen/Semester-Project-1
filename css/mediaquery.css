@@ -189,9 +189,6 @@
   }
 }
 @media (max-width: 500px) {
-  .event-cart {
-    padding: 1em 0 2em 0 !important;
-  }
   #logo {
     width: 10em;
   }
